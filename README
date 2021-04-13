@@ -30,4 +30,4 @@ make -j12 ARCH=arm CROSS_COMPILE=arm-hisiv510-linux- modules
 
 
 生成的驱动程序在drivers/net/wireless/realtek/rtlwifi/rtl8188ee/rtl8188ee.ko
-
+将rtl8188ee.ko驱动拷入根文件系统，再设置为启动自动加载即可
