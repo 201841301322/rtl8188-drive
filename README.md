@@ -25,8 +25,10 @@ make menuconfig
 
 ![](http://43.128.1.154/img/1.png)
 ![](http://43.128.1.154/img/2.png)
+
 发现没有选中该驱动，我们把Depends on都选中则自动选中了
 以下为选中添加其他依赖
+
 ![](http://43.128.1.154/img/3.png)
 ![](http://43.128.1.154/img/4.png)
 ![](http://43.128.1.154/img/5.png)
@@ -38,6 +40,8 @@ make -j12 ARCH=arm CROSS_COMPILE=arm-hisiv510-linux- modules
 
 
 ![](http://43.128.1.154/img/8.png)
+
+
 生成的驱动程序在drivers/net/wireless/realtek/rtlwifi/rtl8188ee/rtl8188ee.ko
 将rtl8188ee.ko驱动拷入根文件系统，再设置为启动自动加载即可
 
