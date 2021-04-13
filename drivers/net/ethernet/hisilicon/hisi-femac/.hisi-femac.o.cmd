@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/hisilicon/hisi-femac/hisi-femac.o := arm-hisiv510-linux-ld -EL    -r -o drivers/net/ethernet/hisilicon/hisi-femac/hisi-femac.o drivers/net/ethernet/hisilicon/hisi-femac/hisi_femac.o drivers/net/ethernet/hisilicon/hisi-femac/phy_fix.o 

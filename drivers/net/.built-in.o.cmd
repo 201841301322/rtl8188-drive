@@ -1,0 +1,1 @@
+cmd_drivers/net/built-in.o :=  arm-hisiv510-linux-ld -EL    -r -o drivers/net/built-in.o drivers/net/Space.o drivers/net/loopback.o drivers/net/phy/built-in.o drivers/net/ethernet/built-in.o drivers/net/usb/built-in.o 

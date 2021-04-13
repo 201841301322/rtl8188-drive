@@ -1,0 +1,1 @@
+cmd_drivers/mtd/nand/hifmc100/built-in.o :=  arm-hisiv510-linux-ld -EL    -r -o drivers/mtd/nand/hifmc100/built-in.o drivers/mtd/nand/hifmc100/hifmc_spi_nand_ids.o drivers/mtd/nand/hifmc100/hifmc100.o drivers/mtd/nand/hifmc100/hifmc100_os.o 
