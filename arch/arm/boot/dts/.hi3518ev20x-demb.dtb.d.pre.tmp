@@ -1,3 +1,0 @@
-hi3518ev20x-demb.o: arch/arm/boot/dts/hi3518ev20x-demb.dts \
- arch/arm/boot/dts/hi3518ev20x.dtsi \
- arch/arm/boot/dts/include/dt-bindings/clock/hi3518ev20x-clock.h

@@ -1,1 +1,0 @@
-cmd_drivers/net/ethernet/hisilicon/built-in.o :=  arm-hisiv510-linux-ld -EL    -r -o drivers/net/ethernet/hisilicon/built-in.o drivers/net/ethernet/hisilicon/hisi-femac/built-in.o 

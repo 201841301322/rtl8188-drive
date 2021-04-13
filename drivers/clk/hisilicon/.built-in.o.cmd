@@ -1,1 +1,0 @@
-cmd_drivers/clk/hisilicon/built-in.o :=  arm-hisiv510-linux-ld -EL    -r -o drivers/clk/hisilicon/built-in.o drivers/clk/hisilicon/clk.o drivers/clk/hisilicon/clkgate-separated.o drivers/clk/hisilicon/clkdivider-hi6220.o drivers/clk/hisilicon/clk-hi3518ev20x.o drivers/clk/hisilicon/reset.o 

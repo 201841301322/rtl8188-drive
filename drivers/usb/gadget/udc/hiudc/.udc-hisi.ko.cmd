@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/udc/hiudc/udc-hisi.ko := arm-hisiv510-linux-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/usb/gadget/udc/hiudc/udc-hisi.ko drivers/usb/gadget/udc/hiudc/udc-hisi.o drivers/usb/gadget/udc/hiudc/udc-hisi.mod.o ;  true
