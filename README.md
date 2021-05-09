@@ -21,7 +21,11 @@ make menuconfig
 
 
 输入“/”搜索rtl8188
+
+
 PCI
+
+
 RTL_CARDS（1）   MAC80211（1） CFG80211（1） RFKILL
 
 ![](http://43.128.1.154/img/1.png)
